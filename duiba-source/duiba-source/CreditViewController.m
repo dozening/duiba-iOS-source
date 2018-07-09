@@ -73,7 +73,7 @@
     //  如果已经有UINavigationContoller了，就 创建出一个 CreditWebViewController 然后 push 进去
     //
     //
-    CreditWebViewController *web=[[CreditWebViewController alloc]initWithUrl:@"http://www.duiba.com.cn/test/demoRedirectSAdfjosfdjdsa"];//实际中需要改为开发者服务器的地址，开发者服务器再重定向到一个带签名的自动登录地址
+    CreditWebViewController *web=[[CreditWebViewController alloc]initWithUrl:@"http://home.m.duiba.com.cn/cpage/test"];//实际中需要改为开发者服务器的地址，开发者服务器再重定向到一个带签名的自动登录地址
     [self.navigationController pushViewController:web animated:YES];
     
     //
